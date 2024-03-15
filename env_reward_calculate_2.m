@@ -156,7 +156,7 @@ function action = Get_Next_Action(Q_values, state, epsilon)
             disp("dont update validActions array...");
         else
             disp("updating validActions array...");
-            validActions = [validActions, actionTry];     % True = 1
+            validActions = [validActions, actionTry];   
             disp(validActions)
         end
     end
