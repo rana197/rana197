@@ -9,7 +9,7 @@ public class matlab_Topsis_Test {
 	public static void main(String[] args) { 
 		try {
 		eng = MatlabEngine.startMatlab();
-		eng.eval("x= [-20:0.1:20];");
+		eng.eval("x= [-20:0.2:20];");
 		eng.eval("y= x.^2;");
 		eng.eval("plot(x,y)");
 		Thread.sleep(10000);
